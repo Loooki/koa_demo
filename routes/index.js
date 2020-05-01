@@ -5,7 +5,7 @@ router.prefix('/front')
 router.get('/', async(ctx, next)=>{
   ctx.body = 'this is a users response!'
   await ctx.render('index', {
-    title: 'Hello Koa 2!'
+    title: 'Hello Koa 2新版本!'
   })
 })
 
